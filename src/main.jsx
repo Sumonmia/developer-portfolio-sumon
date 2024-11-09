@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import router from './router/Router';
-
+import 'react-circular-progressbar/dist/styles.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
