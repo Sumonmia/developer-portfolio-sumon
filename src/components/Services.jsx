@@ -5,10 +5,10 @@ import { ImProfile } from "react-icons/im"
 
 const Services = () => {
   return (
-    <div className="bg-blue-800 py-10">
+    <div id="services" className="bg-blue-800 py-10">
       <div className='w-4/5 mx-auto flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-white text-3xl'>My Amazing Services</h1>
+          <h1 className='text-white text-3xl uppercase'>My Amazing Services</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center mt-7 gap-5'>
           {/* single service start */}

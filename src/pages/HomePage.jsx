@@ -1,4 +1,6 @@
 import AboutMe from "../components/AboutMe"
+import ContactForm from "../components/ContactForm"
+
 import Introduction from "../components/Introduction"
 import Projects from "../components/Projects"
 import Reviews from "../components/Reviews"
@@ -18,6 +20,7 @@ const HomePage = () => {
       <Projects />
       <Skills />
       <Reviews />
+      <ContactForm />
       <Footer />
     </div>
   )

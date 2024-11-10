@@ -7,10 +7,10 @@ import { ImGift } from "react-icons/im"
 
 const Skills = () => {
   return (
-    <div className="bg-blue-800 py-10">
+    <div id="skills" className="bg-blue-800 py-10">
       <div className='w-4/5 mx-auto flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-white text-3xl'>Some of My Skills</h1>
+          <h1 className='text-white text-3xl uppercase'>Some of My Skills</h1>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 space-x-1 text-white font-bold mt-5">
           <CircularSkillBar skill="HTML5" percentage={95} />

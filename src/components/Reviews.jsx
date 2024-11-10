@@ -19,7 +19,7 @@ const Reviews = () => {
     <div className="bg-base-100 py-10">
       <div className='w-4/5 mx-auto flex flex-col items-center justify-center'>
         <div className='text-center'>
-          <h1 className='text-black text-3xl'>Client Reviews</h1>
+          <h1 className='text-black text-3xl uppercase'>testimonials</h1>
         </div>
         <div className='w-4/5 mt-5'>
           <div className='w-full text-black text-2xl'>

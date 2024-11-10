@@ -3,7 +3,7 @@ import AboutSlide from './AboutSlide'
 
 const AboutMe = () => {
   return (
-    <div className="bg-blue-800 py-10">
+    <div id='about' className="bg-blue-800 pt-32 pb-20">
       <div className='w-4/5 mx-auto flex flex-col lg:flex-row items-center justify-center'>
         <div className='w-1/3'>
           <img src="sumon-1.png" alt="sumon" className='w-44'/>
