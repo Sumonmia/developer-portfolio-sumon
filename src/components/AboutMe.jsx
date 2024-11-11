@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutSlide from './AboutSlide'
+import { Link } from 'react-router-dom'
 
 const AboutMe = () => {
   return (
@@ -12,8 +13,8 @@ const AboutMe = () => {
           <h1 className='text-white text-3xl'>Md.Sumon Mia</h1>
           <AboutSlide />
           <div className='flex space-x-7 mt-5'>
-            <button className='btn border-0 hover:bg-blue-600 hover:text-white'>Download CV</button>
-            <button className='btn border-0 hover:bg-blue-600 hover:text-white'>Contact Me</button>
+            <a href="sumon-resume.pdf" target='_blank'className='btn border-0 hover:bg-blue-600 hover:text-white' >Download CV</a>
+            <a href="#contact" className='btn border-0 hover:bg-blue-600 hover:text-white'>Contact Me</a>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="/restaurent" target="_blank" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="/learnsphere" target="_blank" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="/bookshelf" target="_blank" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>
@@ -79,7 +79,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="/metromovers" target="_blank" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>
@@ -98,7 +98,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="#" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>
@@ -117,7 +117,7 @@ const Projects = () => {
                 </span>
               </div>
               <div>
-                <Link to="/restaurent" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
+                <Link to="#" className="btn border-0 my-5 hover:bg-blue-500 hover:text-white">View Details</Link>
                 {/* <button className="btn mb-5"></button> */}
               </div>
             </div>

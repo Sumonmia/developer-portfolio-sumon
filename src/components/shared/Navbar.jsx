@@ -43,11 +43,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className="hover:bg-blue-600 rounded-md"><a className="tooltip tooltip-bottom" data-tip="Home"><TiHomeOutline className="w-10 h-7 hover:scale-90" /></a></li>
+                        <li className="hover:bg-blue-600 rounded-md"><a href="/" className="tooltip tooltip-bottom" data-tip="Home"><TiHomeOutline className="w-10 h-7 hover:scale-90" /></a></li>
 
                         <li className="hover:bg-blue-600 rounded-md"><a href="#intro" className="tooltip tooltip-bottom" data-tip="About Me"><IoPersonCircleSharp className="w-10 h-7 hover:scale-90" /></a></li>
-                        <li className="hover:bg-blue-600 rounded-md"><a href="#services" className="tooltip tooltip-bottom" data-tip="Services"><GrProjects className="w-10 h-7 hover:scale-90" /></a></li>
-                        <li className="hover:bg-blue-600 rounded-md"><a href="#projects" className="tooltip tooltip-bottom" data-tip="Projects"><FaServicestack  className="w-10 h-7 hover:scale-90" /></a></li>
+                        <li className="hover:bg-blue-600 rounded-md"><a href="#services" className="tooltip tooltip-bottom" data-tip="Services"><FaServicestack className="w-10 h-7 hover:scale-90" /></a></li>
+                        <li className="hover:bg-blue-600 rounded-md"><a href="#projects" className="tooltip tooltip-bottom" data-tip="Projects"><GrProjects  className="w-10 h-7 hover:scale-90" /></a></li>
                         <li className="hover:bg-blue-600 rounded-md"><a href="#skills" className="tooltip tooltip-bottom" data-tip="Skills"><GiSkills className="w-10 h-7 hover:scale-90" /></a></li>
                         {/* <li className="hover:bg-blue-600 rounded-md"><a className="tooltip tooltip-bottom" data-tip="Tools"><FaTools className="w-10 h-7 hover:scale-90" /></a></li> */}
                         <li className="hover:bg-blue-600 rounded-md"><a href="#contact" className="tooltip tooltip-bottom" data-tip="Contact Me"><MdOutlineContactMail className="w-10 h-7 hover:scale-90" /></a></li>

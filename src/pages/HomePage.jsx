@@ -21,7 +21,7 @@ const HomePage = () => {
       <Skills />
       <Reviews />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
