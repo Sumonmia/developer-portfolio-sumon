@@ -2,11 +2,13 @@ import { BsLinkedin } from "react-icons/bs"
 import { CgWebsite } from "react-icons/cg"
 import { FaFacebook, FaGithub } from "react-icons/fa"
 import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6"
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Footer = () => {
   return (
     <div className="bg-blue-900">
+       <ScrollToTop smooth viewBox="0 0 128 256" height="20"  color="blue" top="1000" className="text-center" />
       <div className="w-4/5 mx-auto">
         <div className="flex flex-row justify-center items-center gap-6 py-7">
           <a href="https://www.linkedin.com/in/sumonmia77/" target="_blank" className="hover:bg-blue-500 rounded-lg" ><BsLinkedin className="w-10 h-10 text-white hover:scale-90 transition-ease-in-out" /></a>
