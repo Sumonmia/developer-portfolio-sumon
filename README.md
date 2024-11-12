@@ -10,6 +10,6 @@ Welcome to my personal portfolio! This website is all about me and a showcase of
   1. HTML5, CSS3
   2. Tailwind and DaisyUi
   3. ReactJs
-  4. mailJs
+  4. mailJs for sending message through contact form from the visitor.
   5. Others*
 
